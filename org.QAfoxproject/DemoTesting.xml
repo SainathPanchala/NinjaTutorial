@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite_Demo">
+  <test thread-count="5" parallel="tests" name="ChromeTest">
+    <classes>
+      <class name="org.QAfoxproject.Compenents.Components_MiceAndTrackballs_Test"/>
+      <class name="org.QAfoxproject.Compenents.Components_WebCameras_Test"/>
+      <class name="org.QAfoxproject.Desktops.Desktops_Mac_Test"/>
+      <class name="org.QAfoxproject.Desktops.Desktops_PC_Test"/>
+      <class name="org.QAfoxproject.CheckOut.CheckoutTest"/>
+      <class name="org.QAfoxproject.Compenents.Components_Scanner_Test"/>
+      <class name="org.QAfoxproject.ShoppingCart.ShoppingCartTest"/>
+      <class name="org.QAfoxproject.Compenents.Components_Monitors_Test"/>
+      <class name="org.QAfoxproject.WishList.WishListTest"/>
+      <class name="org.QAfoxproject.Compenents.Components_Printers_Test"/>
+      <class name="org.QAfoxproject.MP3players.Mp3Players_Test18_Test"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+</suite> <!-- Suite_Demo -->

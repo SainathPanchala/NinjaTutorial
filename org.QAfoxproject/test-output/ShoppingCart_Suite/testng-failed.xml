@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ShoppingCart_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrome_Test(failed)">
+    <classes>
+      <class name="org.QAfoxproject.Desktops.Desktops_Mac_Test">
+        <methods>
+          <include name="browserSetup"/>
+          <include name="terminationConnection"/>
+          <include name="addProduct_Desktops_Mac_Test"/>
+          <include name="logout"/>
+          <include name="getReportConnection"/>
+          <include name="browserTerminate"/>
+          <include name="getTestRunnerConnection"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.QAfoxproject.Desktops.Desktops_Mac_Test -->
+      <class name="Demo_ShoppingCart.Demo_Shopping_Cart_Test">
+        <methods>
+          <include name="browserSetup"/>
+          <include name="terminationConnection"/>
+          <include name="logout"/>
+          <include name="getReportConnection"/>
+          <include name="discountCode"/>
+          <include name="browserTerminate"/>
+          <include name="addQuantity"/>
+          <include name="getTestRunnerConnection"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Demo_ShoppingCart.Demo_Shopping_Cart_Test -->
+    </classes>
+  </test> <!-- Chrome_Test(failed) -->
+</suite> <!-- Failed suite [ShoppingCart_Suite] -->
