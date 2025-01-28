@@ -13,18 +13,18 @@ public class Desktops_Mac_Test extends BaseConfiguration {
 	public void addProduct_Desktops_Mac_Test() {
 		
 		// Create The test Information
-	   test = report.createTest("Verify-AddProduct_Desktops_Mac");
+	//   test = report.createTest("Verify-AddProduct_Desktops_Mac");
 		
 		HomePage homeobj = new HomePage(webdriverobj.driver);
 		webdriverobj.waituntilElementFound();
 		//Perform Mouse HoverAction----->Desktop
 		webdriverobj.mouseHoverToElement(homeobj.getDesktop_headertext());
-		test.log(Status.PASS, "Step 1:Perform Mouse HoverAction-Desktop");
+	//	test.log(Status.PASS, "Step 1:Perform Mouse HoverAction-Desktop");
 		//Perform Mouse HoverAction----->Mac
 		webdriverobj.mouseHoverToElement(homeobj.getDesktop_Mac_Product());
-		test.log(Status.PASS, "Step 2.1:Perform Mouse HoverAction-Mac");
+//		test.log(Status.PASS, "Step 2.1:Perform Mouse HoverAction-Mac");
 		homeobj.getDesktop_Mac_Product().click();
-		test.log(Status.PASS, "Step 2.2:Perform Click Action");
+	//	test.log(Status.PASS, "Step 2.2:Perform Click Action");
 		
 		homeobj.getiMac().click();
 		Reporter.log("Imac Product Clicked",true);

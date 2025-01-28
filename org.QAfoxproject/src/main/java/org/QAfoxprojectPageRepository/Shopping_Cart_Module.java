@@ -71,10 +71,10 @@ public class Shopping_Cart_Module extends BaseConfiguration {
 	@FindBy(xpath="//a[text()='Use Gift Certificate ']")
 	private WebElement UseGiftCertificate;
 	
-	@FindBy(xpath="//div[@class='input-group']//input[@id='input-voucher']")
+	@FindBy(xpath="//input[@id='input-voucher']")
 	private WebElement EnterGiftCertificate;
 	
-	@FindBy(xpath="//div[@class='input-group']/input[@id='input-voucher']")
+	@FindBy(xpath="//input[@id='button-voucher']")
 	private WebElement ApplyGiftCertificate;
 	
 	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")

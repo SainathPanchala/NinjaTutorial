@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Getting Report Connection]]>
     </line>
     <line>
       <![CDATA[Getting TestRunner Connection Succesful]]>
+    </line>
+    <line>
+      <![CDATA[Browser Lunched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Navigate To the Application Succesful]]>
+    </line>
+    <line>
+      <![CDATA[Maximize the Browser Succesful]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on My Account Header Link Successful]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Login HeaderLink Successful]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Imac Product Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Mac product Added]]>
+    </line>
+    <line>
+      <![CDATA[Logout Succesful]]>
+    </line>
+    <line>
+      <![CDATA[terminate succesful]]>
     </line>
     <line>
       <![CDATA[Browser Lunched Successfully]]>
@@ -35,26 +65,26 @@
       <![CDATA[Terminate ReportConnection Succesful]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-01-22T21:15:08 IST" name="Default suite" finished-at="2025-01-22T21:15:44 IST" duration-ms="35764">
+  <suite started-at="2025-01-28T12:19:33 IST" name="Functional_Suite" finished-at="2025-01-28T12:19:58 IST" duration-ms="24990">
     <groups>
     </groups>
-    <test started-at="2025-01-22T21:15:08 IST" name="Default test" finished-at="2025-01-22T21:15:44 IST" duration-ms="35764">
-      <class name="Demo_ShoppingCart.Demo_Shopping_Cart_Test">
-        <test-method is-config="true" signature="getReportConnection()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@7d0b7e3c]" started-at="2025-01-22T21:15:07 IST" name="getReportConnection" finished-at="2025-01-22T21:15:08 IST" duration-ms="537" status="PASS">
+    <test started-at="2025-01-28T12:19:33 IST" name="Chrome_Test" finished-at="2025-01-28T12:19:58 IST" duration-ms="24990">
+      <class name="org.QAfoxproject.Desktops.Desktops_Mac_Test">
+        <test-method is-config="true" signature="getReportConnection()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:32 IST" name="getReportConnection" finished-at="2025-01-28T12:19:33 IST" duration-ms="596" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Getting Report Connection]]>
             </line>
           </reporter-output>
         </test-method> <!-- getReportConnection -->
-        <test-method is-config="true" signature="getTestRunnerConnection()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@7d0b7e3c]" started-at="2025-01-22T21:15:08 IST" name="getTestRunnerConnection" finished-at="2025-01-22T21:15:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getTestRunnerConnection()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:33 IST" name="getTestRunnerConnection" finished-at="2025-01-28T12:19:33 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Getting TestRunner Connection Succesful]]>
             </line>
           </reporter-output>
         </test-method> <!-- getTestRunnerConnection -->
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@7d0b7e3c]" started-at="2025-01-22T21:15:08 IST" name="browserSetup" finished-at="2025-01-22T21:15:15 IST" duration-ms="6875" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:33 IST" name="browserSetup" finished-at="2025-01-28T12:19:41 IST" duration-ms="8123" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Lunched Successfully]]>
@@ -73,107 +103,91 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@7d0b7e3c]" started-at="2025-01-22T21:15:15 IST" name="login" finished-at="2025-01-22T21:15:16 IST" duration-ms="1213" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:41 IST" name="login" finished-at="2025-01-28T12:19:42 IST" duration-ms="1373" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Successful]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="addQuantity()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@7d0b7e3c]" started-at="2025-01-22T21:15:16 IST" name="addQuantity" finished-at="2025-01-22T21:15:42 IST" duration-ms="26133" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=132.0.6834.83)
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa5bd4308b966bb7aed3e735b512d0e5, sendKeysToElement {id=f.43BFCD7DBC42145114C64C96760390F1.d.C369578370F81BD9D468D8A80DF6F6CD.e.124, value=[Ljava.lang.CharSequence;@6b0615ae}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59929}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59929/devtoo..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (fa5bd4308b966bb7aed3e735b512d0e5)] -> id: input-coupon]
-Session ID: fa5bd4308b966bb7aed3e735b512d0e5]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=132.0.6834.83)
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa5bd4308b966bb7aed3e735b512d0e5, sendKeysToElement {id=f.43BFCD7DBC42145114C64C96760390F1.d.C369578370F81BD9D468D8A80DF6F6CD.e.124, value=[Ljava.lang.CharSequence;@6b0615ae}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59929}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59929/devtoo..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (fa5bd4308b966bb7aed3e735b512d0e5)] -> id: input-coupon]
-Session ID: fa5bd4308b966bb7aed3e735b512d0e5
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
-at Demo_ShoppingCart.Demo_Shopping_Cart_Test.addQuantity(Demo_Shopping_Cart_Test.java:315)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method signature="addProduct_Desktops_Mac_Test()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:42 IST" name="addProduct_Desktops_Mac_Test" finished-at="2025-01-28T12:19:45 IST" duration-ms="2246" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Imac Product Clicked]]>
+            </line>
+            <line>
+              <![CDATA[Mac product Added]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- addQuantity -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@7d0b7e3c]" started-at="2025-01-22T21:15:42 IST" name="logout" finished-at="2025-01-22T21:15:43 IST" duration-ms="1020" status="PASS">
+        </test-method> <!-- addProduct_Desktops_Mac_Test -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:45 IST" name="logout" finished-at="2025-01-28T12:19:45 IST" duration-ms="639" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout Succesful]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@7d0b7e3c]" started-at="2025-01-22T21:15:43 IST" name="browserTerminate" finished-at="2025-01-22T21:15:44 IST" duration-ms="429" status="PASS">
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:45 IST" name="browserTerminate" finished-at="2025-01-28T12:19:45 IST" duration-ms="253" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[terminate succesful]]>
             </line>
           </reporter-output>
         </test-method> <!-- browserTerminate -->
-        <test-method is-config="true" signature="terminationConnection()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@7d0b7e3c]" started-at="2025-01-22T21:15:44 IST" name="terminationConnection" finished-at="2025-01-22T21:15:44 IST" duration-ms="589" status="PASS">
+        <test-method is-config="true" signature="terminationConnection()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:58 IST" name="terminationConnection" finished-at="2025-01-28T12:19:58 IST" duration-ms="466" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Terminate ReportConnection Succesful]]>
             </line>
           </reporter-output>
         </test-method> <!-- terminationConnection -->
+      </class> <!-- org.QAfoxproject.Desktops.Desktops_Mac_Test -->
+      <class name="Demo_ShoppingCart.Demo_Shopping_Cart_Test">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-28T12:19:45 IST" name="browserSetup" finished-at="2025-01-28T12:19:51 IST" duration-ms="5127" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Lunched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Navigate To the Application Succesful]]>
+            </line>
+            <line>
+              <![CDATA[Maximize the Browser Succesful]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on My Account Header Link Successful]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Login HeaderLink Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-28T12:19:51 IST" name="login" finished-at="2025-01-28T12:19:52 IST" duration-ms="1219" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addQuantity()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-28T12:19:52 IST" name="addQuantity" finished-at="2025-01-28T12:19:57 IST" duration-ms="5005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addQuantity -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-28T12:19:57 IST" name="logout" finished-at="2025-01-28T12:19:58 IST" duration-ms="674" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Succesful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-28T12:19:58 IST" name="browserTerminate" finished-at="2025-01-28T12:19:58 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[terminate succesful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserTerminate -->
       </class> <!-- Demo_ShoppingCart.Demo_Shopping_Cart_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Chrome_Test -->
+  </suite> <!-- Functional_Suite -->
 </testng-results>

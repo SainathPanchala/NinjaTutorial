@@ -49,7 +49,7 @@
 
 	<profiles>
 		<profile>
-			<id>FT</id>
+			<id>FT1</id>
 
 			<build>
 				<plugins>
@@ -60,7 +60,7 @@
 						<version>3.5.2</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>FunctionalityTest.xml</suiteXmlFile>
+								<suiteXmlFile>Functional_Testing1.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>

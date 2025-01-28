@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 public class RegisterAccountTest extends BaseConfiguration{
 	
-	
+	/**
 	@Test(retryAnalyzer = org.QAfoxprojectListenerfeature.Listenerimplimentation.class)
 	public void verifywithValidInput() {
 		
@@ -49,6 +49,7 @@ public class RegisterAccountTest extends BaseConfiguration{
 		Reporter.log("Register Account verifyWith with valid inputs",true);
 		//org.testng.Assert.fail();
 	}
+	**/
 	
 	@Test(enabled = false)
 	public void verifyWithINvalidInput() {

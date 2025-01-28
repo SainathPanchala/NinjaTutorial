@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functional_Suite">
+  <test thread-count="5" name="Chrome_Test">
+    <classes>
+      <class name="org.QAfoxproject.Desktops.Desktops_Mac_Test"/>
+      <class name="Demo_ShoppingCart.Demo_Shopping_Cart_Test"/>
+    </classes>
+  </test> <!-- Chrome_Test -->
+</suite> <!-- Functional_Suite -->
