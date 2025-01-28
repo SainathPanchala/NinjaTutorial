@@ -12,13 +12,13 @@ public class Demo_Shopping_Cart_Test extends BaseConfiguration {
 	@Test
 	public void addQuantity() {
 		//Create a Information
-		test = report.createTest("Verify-Shopping Cart");
+	//	test = report.createTest("Verify-Shopping Cart");
 		// Create a Object For HomePage
 		Shopping_Cart_Module sc = new Shopping_Cart_Module(webdriverobj.driver);
           webdriverobj.waituntilElementFound();
 		// Click on ShoppingCart
 		sc.getShoppingCartModule().click();
-		test.log(Status.PASS, "Step 1:Perform Click Action----Shopping Cart Module Clicked");
+	//	test.log(Status.PASS, "Step 1:Perform Click Action----Shopping Cart Module Clicked");
 		boolean result = sc.getShoppingCartModule().isDisplayed();
 		if(result) {
 			System.out.println("Shopping Cart Module is Displayed");
@@ -32,7 +32,7 @@ public class Demo_Shopping_Cart_Test extends BaseConfiguration {
 		}
 		else {
 			System.out.println("Shopping Cart is Not Enabled");
-			test.log(Status.PASS, "Step 1.1:Perform  Verify");
+		//	test.log(Status.PASS, "Step 1.1:Perform  Verify");
 			
 		}
 		// Fetch the Text
@@ -45,7 +45,7 @@ public class Demo_Shopping_Cart_Test extends BaseConfiguration {
 			System.out.println("Test----Fail");
 		}
 		Assert.assertEquals(exp, act);
-		test.log(Status.PASS, "Step 1.2:Alert PopUp is Same");
+		//test.log(Status.PASS, "Step 1.2:Alert PopUp is Same");
 		// Fetch The Weight
 		sc.getShoppingCartWeight().getText();
 		String exp1 ="Shopping Cart  (5.00kg)";
@@ -57,10 +57,10 @@ public class Demo_Shopping_Cart_Test extends BaseConfiguration {
 			System.out.println("Test1----Fail");
 		}
 		Assert.assertEquals(exp1, act1);
-		test.log(Status.PASS, "Step 1.3:Shopping Cart weigt is Same");
+	//	test.log(Status.PASS, "Step 1.3:Shopping Cart weigt is Same");
 		// Click on Quantity
 		sc.getQuantity().click();
-		test.log(Status.PASS, "Step 1.4:Perform Click action-Quantity");
+	//	test.log(Status.PASS, "Step 1.4:Perform Click action-Quantity");
 		boolean result2 = sc.getQuantity().isEnabled();
 		if(result2) {
 			System.out.println("Quantity is Enabled");
@@ -84,7 +84,7 @@ public class Demo_Shopping_Cart_Test extends BaseConfiguration {
 		
 		// Click On Update
 		sc.getUpdateQuantity().click();
-		test.log(Status.PASS, "Step 2:Perform Click Action----Update");
+	//	test.log(Status.PASS, "Step 2:Perform Click Action----Update");
 		boolean result4 = sc.getUpdateQuantity().isDisplayed();
 		if(result4) {
 			System.out.println("UpdatedQuantity is Displayed");
@@ -103,7 +103,7 @@ public class Demo_Shopping_Cart_Test extends BaseConfiguration {
 		}
 		// Click on UseCouponCode
 		sc.getUSECouponCode().click();
-		test.log(Status.PASS, "Step 2.1:Perform Click Action----UseCouponCode");
+	//	test.log(Status.PASS, "Step 2.1:Perform Click Action----UseCouponCode");
 		boolean result5 = sc.getUSECouponCode().isDisplayed();
 		if(result5) {
 			System.out.println("Use Coupon Code Is Displayed");
@@ -115,7 +115,7 @@ public class Demo_Shopping_Cart_Test extends BaseConfiguration {
 		sc.getEnterYourCouponCode().sendKeys("8u8u8u8u8u");
 		// Click the ApplyCoupon
 		sc.getApplyCoupon().click();
-		test.log(Status.PASS, "Step 2.1:Perform Click Action-----ApplyCoupon");
+	//	test.log(Status.PASS, "Step 2.1:Perform Click Action-----ApplyCoupon");
 		boolean result6 = sc.getApplyCoupon().isDisplayed();
 		if(result6) {
 			System.out.println("Apply Coupon is Displayed");
@@ -144,7 +144,7 @@ public class Demo_Shopping_Cart_Test extends BaseConfiguration {
 
 		// Click on EstimateshippingTaxes
 		sc.getEstimateshippingTaxes().click();
-		test.log(Status.PASS, "Step 2.2:Perform Click Action-----EstimateshippingTaxes");
+	//	test.log(Status.PASS, "Step 2.2:Perform Click Action-----EstimateshippingTaxes");
 		boolean result8 = sc.getEstimateshippingTaxes().isDisplayed();
 		if(result8) {
 			System.out.println("EstimateShipping&Taxes is Displayed");
@@ -154,7 +154,7 @@ public class Demo_Shopping_Cart_Test extends BaseConfiguration {
 		}
 		// Click on Country
 		sc.getCountry().click();
-		test.log(Status.PASS, "Step 2.3:Perform Click Action -----Country");
+	//	test.log(Status.PASS, "Step 2.3:Perform Click Action -----Country");
 		boolean result9 = sc.getCountry().isDisplayed();
 		if(result9) {
 			System.out.println("Country is Displayed");
