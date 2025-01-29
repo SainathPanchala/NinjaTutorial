@@ -49,7 +49,6 @@
 
 	<profiles>
 		<profile>
-			<id>FT1</id>
 
 			<build>
 				<plugins>
