@@ -65,26 +65,26 @@
       <![CDATA[Terminate ReportConnection Succesful]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-01-28T12:19:33 IST" name="Functional_Suite" finished-at="2025-01-28T12:19:58 IST" duration-ms="24990">
+  <suite started-at="2025-01-29T12:01:24 IST" name="Functional_Suite" finished-at="2025-01-29T12:03:03 IST" duration-ms="98524">
     <groups>
     </groups>
-    <test started-at="2025-01-28T12:19:33 IST" name="Chrome_Test" finished-at="2025-01-28T12:19:58 IST" duration-ms="24990">
+    <test started-at="2025-01-29T12:01:24 IST" name="Chrome_Test" finished-at="2025-01-29T12:03:03 IST" duration-ms="98524">
       <class name="org.QAfoxproject.Desktops.Desktops_Mac_Test">
-        <test-method is-config="true" signature="getReportConnection()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:32 IST" name="getReportConnection" finished-at="2025-01-28T12:19:33 IST" duration-ms="596" status="PASS">
+        <test-method is-config="true" signature="getReportConnection()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-29T12:01:22 IST" name="getReportConnection" finished-at="2025-01-29T12:01:24 IST" duration-ms="2096" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Getting Report Connection]]>
             </line>
           </reporter-output>
         </test-method> <!-- getReportConnection -->
-        <test-method is-config="true" signature="getTestRunnerConnection()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:33 IST" name="getTestRunnerConnection" finished-at="2025-01-28T12:19:33 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getTestRunnerConnection()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-29T12:01:24 IST" name="getTestRunnerConnection" finished-at="2025-01-29T12:01:24 IST" duration-ms="4" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Getting TestRunner Connection Succesful]]>
             </line>
           </reporter-output>
         </test-method> <!-- getTestRunnerConnection -->
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:33 IST" name="browserSetup" finished-at="2025-01-28T12:19:41 IST" duration-ms="8123" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-29T12:01:24 IST" name="browserSetup" finished-at="2025-01-29T12:02:27 IST" duration-ms="62470" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Lunched Successfully]]>
@@ -103,14 +103,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:41 IST" name="login" finished-at="2025-01-28T12:19:42 IST" duration-ms="1373" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-29T12:02:27 IST" name="login" finished-at="2025-01-29T12:02:29 IST" duration-ms="2694" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Successful]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="addProduct_Desktops_Mac_Test()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:42 IST" name="addProduct_Desktops_Mac_Test" finished-at="2025-01-28T12:19:45 IST" duration-ms="2246" status="PASS">
+        <test-method signature="addProduct_Desktops_Mac_Test()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-29T12:02:29 IST" name="addProduct_Desktops_Mac_Test" finished-at="2025-01-29T12:02:34 IST" duration-ms="4426" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Imac Product Clicked]]>
@@ -120,21 +120,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- addProduct_Desktops_Mac_Test -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:45 IST" name="logout" finished-at="2025-01-28T12:19:45 IST" duration-ms="639" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-29T12:02:34 IST" name="logout" finished-at="2025-01-29T12:02:35 IST" duration-ms="829" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout Succesful]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:45 IST" name="browserTerminate" finished-at="2025-01-28T12:19:45 IST" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-29T12:02:35 IST" name="browserTerminate" finished-at="2025-01-29T12:02:37 IST" duration-ms="2655" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[terminate succesful]]>
             </line>
           </reporter-output>
         </test-method> <!-- browserTerminate -->
-        <test-method is-config="true" signature="terminationConnection()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-28T12:19:58 IST" name="terminationConnection" finished-at="2025-01-28T12:19:58 IST" duration-ms="466" status="PASS">
+        <test-method is-config="true" signature="terminationConnection()[pri:0, instance:org.QAfoxproject.Desktops.Desktops_Mac_Test@1530c739]" started-at="2025-01-29T12:03:03 IST" name="terminationConnection" finished-at="2025-01-29T12:03:04 IST" duration-ms="1306" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Terminate ReportConnection Succesful]]>
@@ -143,7 +143,7 @@
         </test-method> <!-- terminationConnection -->
       </class> <!-- org.QAfoxproject.Desktops.Desktops_Mac_Test -->
       <class name="Demo_ShoppingCart.Demo_Shopping_Cart_Test">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-28T12:19:45 IST" name="browserSetup" finished-at="2025-01-28T12:19:51 IST" duration-ms="5127" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-29T12:02:37 IST" name="browserSetup" finished-at="2025-01-29T12:02:51 IST" duration-ms="13244" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Lunched Successfully]]>
@@ -162,25 +162,25 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-28T12:19:51 IST" name="login" finished-at="2025-01-28T12:19:52 IST" duration-ms="1219" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-29T12:02:51 IST" name="login" finished-at="2025-01-29T12:02:52 IST" duration-ms="1735" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Successful]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="addQuantity()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-28T12:19:52 IST" name="addQuantity" finished-at="2025-01-28T12:19:57 IST" duration-ms="5005" status="PASS">
+        <test-method signature="addQuantity()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-29T12:02:52 IST" name="addQuantity" finished-at="2025-01-29T12:03:01 IST" duration-ms="9132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addQuantity -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-28T12:19:57 IST" name="logout" finished-at="2025-01-28T12:19:58 IST" duration-ms="674" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-29T12:03:01 IST" name="logout" finished-at="2025-01-29T12:03:02 IST" duration-ms="720" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout Succesful]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-28T12:19:58 IST" name="browserTerminate" finished-at="2025-01-28T12:19:58 IST" duration-ms="267" status="PASS">
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:Demo_ShoppingCart.Demo_Shopping_Cart_Test@470734c3]" started-at="2025-01-29T12:03:02 IST" name="browserTerminate" finished-at="2025-01-29T12:03:03 IST" duration-ms="451" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[terminate succesful]]>

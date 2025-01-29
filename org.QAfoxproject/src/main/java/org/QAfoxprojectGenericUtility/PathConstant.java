@@ -8,6 +8,6 @@ public interface PathConstant {
   	
   	String PROPERTY_PATH ="./src/test/resorces/CommonData.Properties";
   	
-  	long DURATION = 20;
+  	long DURATION = 30;
   	
 }
