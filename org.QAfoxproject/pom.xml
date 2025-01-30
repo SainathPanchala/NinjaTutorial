@@ -6,11 +6,11 @@
 	<artifactId>org.QAfoxproject</artifactId>
 	<version>1.1</version>
 	<name>QA Fox is A Ecommerse Application</name>
-	
+
 	<properties>
-	<maven.compiler.sources>1.8</maven.compiler.sources>
-	<maven.compiler.target>1.8</maven.compiler.target>
-	
+		<maven.compiler.sources>1.8</maven.compiler.sources>
+		<maven.compiler.target>1.8</maven.compiler.target>
+
 	</properties>
 
 	<dependencies>
@@ -49,6 +49,15 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.0.9</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.36</version>
+			<scope>provided</scope>
+		</dependency>
+
 
 	</dependencies>
 
